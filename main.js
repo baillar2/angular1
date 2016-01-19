@@ -10,7 +10,11 @@ angular
 		
 		$scope.click = function(){
 			console.log("you clicked a button")
+			$scope.greeting = "guess it worked"
+			$scope.show = true
 		}
+
+
 
 
 

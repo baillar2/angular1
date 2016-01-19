@@ -11,14 +11,20 @@
 <body ng-controller="controllerOne">
 	
 	<h1>{{greeting}}</h1>
-	<h2 ng-bind="greeting"></h2>
-	<input ng-model="greeting">
-
-	<div>
+	
+	<h2></h2>
+	
+	
 		
-	<button ng-click="click()">Click Me!</button>
+	<!--<button ng-click="click()">Click Me!</button>-->
 
-	</div>
+	<button ng-click="click()">where's the list</button>
+
+	<ul ng-show="show">
+		<li>here's</li>
+		<li>the hidden</li>
+		<li>list bro</li>
+	</ul>
 
 
 
