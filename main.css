@@ -1,0 +1,43 @@
+.mainThree {
+	position: relative;
+	display: block;
+	height: 500px;
+	width: 100%;
+	color: lightgrey;
+}
+
+.firstButton {
+	display: inline-block;
+	height: 200px;
+	width:400px;
+	background-color:lightblue ;
+	color: white;
+	font-size: 20px;
+	border-radius: 5px;
+	margin: 100px auto auto auto;
+	}
+
+.popUp  {
+	position: fixed;
+	height: 600px;
+	width: 600px;
+	background-color: pink;
+	border:thin solid black;
+	margin: auto;
+}
+p {
+	font-size: 20px;
+	color: blue;
+	font-weight: bold;
+	margin:auto;
+}
+.secondButton {
+	display: inline-block;
+	height: 20px;
+	width: 75px;
+	color: white;
+	background-color: red;
+	border:thin solid black;
+	border-radius: 3px;
+	padding:5px 10px;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="moduleOne">
+<head>
+	<title>Part Three</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.js"></script>
+	<script type="text/javascript" src="partthree.js"></script>
+</head>
+<body ng-controller="controllerOne">
+
+<div class=mainThree>
+
+<button class=firstButton ng-click="popUp()">Where's the window?</button>
+
+</div>
+
+
+<div class=popUp ng-show="show">
+
+
+	<p>Here's your pop-up window!!</p>
+
+	<button class=secondButton ng-click="popDown()">go away!</button>
+
+</div> 
+</body>
+</html>
