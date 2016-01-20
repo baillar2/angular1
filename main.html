@@ -10,17 +10,23 @@
 
 <body ng-controller="controllerOne">
 	
-	<h1>Here's This Bomb Ass Web Page</h1>
+	<h1>Here's This Bomb Ass Web Page{{excited}}</h1>
 	
 	
-	<p>e 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software lik</p>
+	<p ng-style="hoverColor" ng-mouseenter="hoverColor={color:'pink'}" ng-mouseleave="hoverColor={color:'black'}">e 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software lik</p>
 
 
-	<h2>This Page isn't Really That Cool</h2>
+	<h2>This Page isn't Really That Cool{{excited}}</h2>
+	
 
-	<a href="#">this won't get you anywhere</a>
+	<div>
+	
+	<a ng-click="confirmHide()" ng-hide="hide" href="#">this won't get you anywhere</a>
+	
+
 	<a href="#">neither will this one</a>
 	
+	</div>
 	
 		
 	<!--<button ng-click="click()">Click Me!</button>-->
